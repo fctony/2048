@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{FAA271DF-0D6E-151F-8354-B1EDE5043471}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_4;UNITY_2018_1;UNITY_2018;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2018.1.4f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfComponentMemberInfo.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfControlKeyBinding.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfDataObjectProxy.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfEventBinding.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfEventDrivenPropertyBinding.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfEventProxyAttribute.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfExpressionPropertyBinding.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfObservableProperty.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfPropertyBinding.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfProxyPropertyBinding.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\dfSpriteAnimation.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\IDataBindingComponent.cs" />
+    <Compile Include="Assets\Daikon Forge\DataBinding\Scripts\IObservableValue.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfButton.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfCheckbox.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfControl.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfDragHandle.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfDropdown.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfInteractiveBase.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfLabel.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfListbox.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfPanel.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfPanelFlowLayout.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfProgressBar.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfRadialSprite.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfResizeHandle.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfScrollbar.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfScrollPanel.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfSlicedSprite.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfSlider.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfSprite.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfTabContainer.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfTabstrip.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfTextbox.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfTextureSprite.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfTiledSprite.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Controls\dfWebSprite.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfAnimationClip.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfAtlas.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfAttributes.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfChecksumUtil.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfClippingUtil.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfDynamicFont.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfEnumerations.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfEvents.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfFont.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfFontBase.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfGUICamera.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfGUIManager.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfLanguageCodes.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfLanguageManager.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfList.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfMarkupTokenizer.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfRenderData.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\dfSupportClasses.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\IDFControlHost.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\IDFMultiRender.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\dfInputManager.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\dfTouchInfo.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\dfTouchTrackingInfo.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfDoubleTapGesture.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfFlickGesture.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfGestureBase.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfGestureState.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfHoldGesture.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfPanGesture.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfResizeGesture.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfRotateGesture.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Gestures\dfTapGesture.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Components\dfMouseTouchSourceComponent.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Components\dfTouchInputSourceComponent.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Components\dfWin7TouchSourceComponent.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Components\dfWin8TouchSourceComponent.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Sources\dfMobileTouchInputSource.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Sources\dfMouseTouchInputSource.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Sources\dfWin7TouchInputSource.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Sources\dfWin8TouchInputSource.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\Input\Touch Sources\IDFTouchSource.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Internal\MetroReflectionExtensions.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Rich Text\dfMarkupBox.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Rich Text\dfMarkupElement.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Rich Text\dfMarkupImageCache.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Rich Text\dfMarkupParser.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Rich Text\dfMarkupStyle.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Rich Text\dfMarkupTags.cs" />
+    <Compile Include="Assets\Daikon Forge\DFGUI\Scripts\Rich Text\dfRichTextLabel.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\ActionbarsDragCursor.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\ActionbarsHoverEvents.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\ActionbarsTooltip.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\ActionBarViewModel.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\MessageDisplay.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\ShowSpellWindow.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\SpellDefinition.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\SpellInventory.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ActionBar\Scripts\SpellSlot.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Adding and Removing Controls Dynamically\DemoCreateChildControls.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Adding and Removing Controls Dynamically\DemoMoveControls.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Adding and Removing Controls Dynamically\DemoRemoveAllControls.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\AutoRotateModel.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\ColorFieldSelector.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\ColorHexField.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\ColorPickerDrag.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\ColorPickerPreset.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\HSBColor.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\HueSliderSelector.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\RGBSliders.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Color Picker\Scripts\SetCharacterColor.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Containers\Scripts\AutoArrangeDemoItem.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Containers\Scripts\AutoArrangeOptions.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Coverflow\DEMO_CoverflowItemInfo.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Coverflow\dfCoverflow.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Drag and Drop\DnDExample_DragCursor.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Drag and Drop\DndExample_InventoryItem.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ObjectPooling\Scripts\dfPooledObject.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\ObjectPooling\Scripts\dfPoolManager.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Radial Menu\Scripts\CircularMenuStateIcon.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Radial Menu\Scripts\dfRadialMenu.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Radial Menu\Scripts\RadialContextMenu.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Rich Text\rtSampleEvents.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\AnimatePopup.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\ControlNavigation.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\DebugRenderInfo.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfFollowObject.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfFollowObject3D.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfFollowObjectSorter.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfFPSCounter.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfLoadLevelByName.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfQuitOnClick.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfRadarMain.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfRadarMarker.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfReplaceGUICamera.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\dfWindowTilt.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\PlatformVisibility.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\RuntimePixelPerfect.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\SetDefaultControl.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\SetMobileResolution.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Scripts\TextboxPrompt.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Sprites\Scripts\HoverAnimEvents.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Sprites\Scripts\SpriteProperties.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Tooltip\DemoFloatingTooltip.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Touch\Joysticks\Scripts\CharacterMotorCS.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Touch\Joysticks\Scripts\dfTouchJoystick.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Touch\Joysticks\Scripts\JumpButtonEvents.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Touch\Joysticks\Scripts\MobileFPSInputController.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Touch\Joysticks\Scripts\MobileMouseLook.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Touch\Picture Viewer\Scripts\DEMO_PictureManipulation.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Touch\Picture Viewer\Scripts\DEMO_PictureSelector.cs" />
+    <Compile Include="Assets\Daikon Forge\Examples\Touch\Picture Viewer\Scripts\DEMO_TouchVisualizer.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfAnimatedValue.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfEasingFunctions.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfEasingType.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenColor.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenColor32.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenComponent.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenComponentBase.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenEnumerations.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenEventBinding.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenFloat.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenGroup.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenPlayableBase.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenRotation.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenVector2.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenVector3.cs" />
+    <Compile Include="Assets\Daikon Forge\Tweening\Scripts\dfTweenVector4.cs" />
+    <Compile Include="Assets\Demo.cs" />
+    <Compile Include="Assets\Scripts\BackButton.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameEndPanel.cs" />
+    <Compile Include="Assets\Scripts\helpPanel\HelpButton.cs" />
+    <Compile Include="Assets\Scripts\helpPanel\HelpPanelCloseButton.cs" />
+    <Compile Include="Assets\Scripts\Num.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\ShareButton.cs" />
+    <Compile Include="Assets\Scripts\statPanel\RankItem.cs" />
+    <Compile Include="Assets\Scripts\statPanel\RankListManager.cs" />
+    <Compile Include="Assets\Scripts\statPanel\StatButton.cs" />
+    <Compile Include="Assets\Scripts\statPanel\StatpanelCloseButton.cs" />
+    <Compile Include="Assets\StartButton.cs" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\Fantasy\Fonts\Open Sans\Heiro-OpenSans-Regular-24px.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Labels\Atlas\Huggable32.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\Fantasy\Fonts\Open Sans\Heiro-OpenSans-Regular-12px.fnt" />
+    <None Include="Assets\Daikon Forge\DFGUI\Shaders\Default UI Shader.shader" />
+    <None Include="Assets\Daikon Forge\Examples\Shaders\TechBlueShader.shader" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\TechBlue\OpenSans-Semibold-18px.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\TechBlue\title-text.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\TechBlue\OpenSans-SemiBold-56px.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\AnimatedSprite\OpenSans-Semibold-18px.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Resources\Fonts\SIL Open Font License.txt" />
+    <None Include="Assets\Daikon Forge\Examples\Color Picker\Shaders\ColorPickerHue.shader" />
+    <None Include="Assets\Daikon Forge\DFGUI\Shaders\Dynamic Font Shader.shader" />
+    <None Include="Assets\Daikon Forge\Examples\Color Picker\Shaders\ColoredCharacterShader.shader" />
+    <None Include="Assets\Daikon Forge\Examples\Color Picker\Shaders\ColorPickerHSB.shader" />
+    <None Include="Assets\Daikon Forge\Resources\Change Log.txt" />
+    <None Include="Assets\Daikon Forge\Examples\Shaders\Radar Sweep Shader.shader" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\TechBlue\OpenSans-Semibold-14px.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Labels\Atlas\Huggable.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Resources\Fonts\OpenSans Font License.txt" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\TechBlue\LCD Font.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\Fantasy\Fonts\Open Sans\Heiro-OpenSans-Regular-20px.fnt" />
+    <None Include="Assets\Daikon Forge\Examples\Skins\Fantasy\Fonts\Open Sans\Heiro-OpenSans-Regular-16px.fnt" />
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>G:/game source/game project/NewGame/2048/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>G:/game source/game project/NewGame/2048/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudWebServicesModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FacebookModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>G:/game source/game project/NewGame/2048/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>E:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="dfScriptLite">
+      <HintPath>G:/game source/game project/NewGame/2048/Assets/Daikon Forge/DataBinding/Plugins/dfScriptLite.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>E:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{918E9C9D-A87F-B258-08CE-A4CE42EA8256}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
